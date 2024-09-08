@@ -6,7 +6,6 @@ The summer project for CSNOVA 2024, a homomorphic encryption implementation base
 
 * 本项目初步实现了基于 `@Lightbulb(lightbulb128)` 开发的同态加密库 `troy-nova` (https://github.com/lightbulb128/troy-nova.git) 的 ReLU 函数同态加密算法。能够对于区间 $[-5, 5)$ 当中的 $16384$ 个等间距的数进行加密。使用 `<ctime>` 对计算过程进行度量发现，对单个数据进行加密的速度要快于基于同态加密库`heathcliff` 的多方安全计算库 `imp` 的效率。具体的数据将在本文件夹当中的实验报告当中呈现。<br>
 
-* 本项目的宗旨是为了熟悉实验框架，对同态加密的使用，原理进行深入了解，因此底层所使用的多项式运算，线性方程组求解以及多项式逼近算法均由自己实现。目前可能有一些并不鲁棒的地方，出于稳定性考虑请不要将其作为应用程序使用。
 
 ## 环境
 * 开发环境位于 Ubuntu 22.04 当中，其他的依赖项可以参考 `troy-nova` 的 `readme.md`。
