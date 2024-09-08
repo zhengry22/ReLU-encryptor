@@ -39,4 +39,5 @@ Input degree for polynomial:
         ```
     * 将 `python_script.py` 和 `guide.sh` 放置于 `troy-nova-spu/build/HE_ReLU` 下
     * 运行 `./guide.sh` 即可。
-
+## 更多
+* 可以参考 `report`。
