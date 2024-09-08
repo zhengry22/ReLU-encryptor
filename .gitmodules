@@ -1,0 +1,6 @@
+[submodule "HE_ReLU"]
+	path = HE_ReLU
+	url = git@github.com:zhengry22/HE_ReLU.git
+[submodule "Polynomial_Calc"]
+	path = Polynomial_Calc
+	url = git@github.com:zhengry22/Polynomial_Calc.git
