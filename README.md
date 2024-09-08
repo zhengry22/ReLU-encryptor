@@ -30,15 +30,13 @@ Input degree for polynomial:
         ├── HE_ReLU
         └── Polynomial_Calc
         ```
-
-    * 运行以下指令即可运行：
+    * 现在，您可以修改代码。修改之后，运行以下指令即可生成可执行程序：
     * ```
         mkdir build
         cd build
         cmake .. -DTROY_RELU=ON
         make troyrelu
-        ./HE_ReLU/troyrelu
         ```
-    * 在运行之前，您可以对代码进行修改。
+    * 将 `python_script.py` 和 `guide.sh` 放置于 `troy-nova-spu/build/HE_ReLU` 下
+    * 运行 `./guide.sh` 即可。
 
-    
